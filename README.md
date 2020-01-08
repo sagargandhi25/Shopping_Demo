@@ -1,7 +1,7 @@
 # Shopping_Demo
 Android sample demo e-commerce app.
 
-##Features:
+## Features
 
 Display product categories in navigation Drawer.
 
