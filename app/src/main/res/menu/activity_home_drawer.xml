@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_defaultfragment"
+            android:icon="@drawable/ic_dress"
+            android:title="Home Screen" />
+
+        <item
+            android:id="@+id/nav_womenfootwear"
+            android:icon="@drawable/ic_dress"
+            android:title="women’s footwear" />
+        <item
+            android:id="@+id/nav_mensfootwear"
+            android:icon="@drawable/ic_polo"
+            android:title="men’s footwear" />
+        <item
+            android:id="@+id/nav_womencasualwear"
+            android:icon="@drawable/ic_dress"
+            android:title="women’s casualwear" />
+        <item
+            android:id="@+id/nav_mencasualwear"
+            android:icon="@drawable/ic_polo"
+            android:title="men’s casualwear" />
+
+        <item
+            android:id="@+id/nav_womenformalwear"
+            android:icon="@drawable/ic_dress"
+            android:title="women’s formalwear" />
+        <item
+            android:id="@+id/nav_menformalwear"
+            android:icon="@drawable/ic_polo"
+            android:title="men’s formalwear" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_wishlist"
+                android:icon="@drawable/ic_heart"
+                android:title="WishList" />
+
+        </menu>
+    </item>
+
+</menu>

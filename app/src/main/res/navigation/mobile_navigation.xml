@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_defaultfragment">
+
+    <fragment
+        android:id="@+id/nav_defaultfragment"
+        android:name="org.demo.shopping.Activities.ui.defaulthome.default_fragment"
+        android:label="Home Screen"
+        tools:layout="@layout/defaultlayout" />
+
+    <fragment
+        android:id="@+id/nav_womenfootwear"
+        android:name="org.demo.shopping.Activities.ui.home.HomeFragment"
+        android:label="women’s footwear"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_mensfootwear"
+        android:name="org.demo.shopping.Activities.ui.gallery.GalleryFragment"
+        android:label="men’s footwear"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_womencasualwear"
+        android:name="org.demo.shopping.Activities.ui.slideshow.SlideshowFragment"
+        android:label="women’s casualwear"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_mencasualwear"
+        android:name="org.demo.shopping.Activities.ui.tools.ToolsFragment"
+        android:label="men’s casualwear"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_womenformalwear"
+        android:name="org.demo.shopping.Activities.ui.share.ShareFragment"
+        android:label="women’s formalwear"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_menformalwear"
+        android:name="org.demo.shopping.Activities.ui.send.SendFragment"
+        android:label="men’s formalwear"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_wishlist"
+        android:name="org.demo.shopping.Activities.ui.wishlist.Wishlist"
+        android:label="WishList"
+        tools:layout="@layout/wishlist_fragment" />
+</navigation>
